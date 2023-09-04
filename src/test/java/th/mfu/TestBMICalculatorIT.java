@@ -25,7 +25,7 @@ public class TestBMICalculatorIT {
         // Use ClientBuilder to create a new client that can be used to create
         // connections to the Web service.
         client = ClientBuilder.newClient();
-    }
+    } 
 
     @AfterClass
     public static void closeConnection() {
